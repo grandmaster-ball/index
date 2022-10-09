@@ -27,7 +27,7 @@ toc: true
                 int cursum = nums[i] + nums[second] + nums[third];
                 if(cursum == target) return target;
                 if(abs(cursum-target)<abs(sum-target)) sum = cursum;    //谁更接近要谁
-                cursum>target ? third-- : second++;	                    //这一步很巧妙的降低了时间复杂度
+                cursum>target ? third-- : second++;                     //这一步很巧妙的降低了时间复杂度
             }
         }
         return sum;
