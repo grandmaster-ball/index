@@ -38,7 +38,7 @@ toc: true
 
 ```cpp
 int second = i+1;
-int third  = len-1;
+int third  = len-1; 
 
 cursum>target ? third-- : second++;	
 ```
