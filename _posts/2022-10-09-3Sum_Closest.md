@@ -3,7 +3,7 @@ layout: post
 title: 16-3Sum_Closest
 date: 2022-10-09
 Author: keen
-tags: [暴力,two_pointers,medium]
+tags: [暴力,two_pointers,Medium]
 toc: true
 ---
 # 16-3Sum Closest
