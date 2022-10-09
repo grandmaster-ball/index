@@ -3,7 +3,7 @@ layout: post
 title: 653-Two Sum IV - Input is a BST
 date: 2022-10-09
 Author: keen
-tags: [暴力,二叉树,Easy]
+tags: [Set,二叉树,Easy]
 toc: true
 ---
 挺简单的，待补完所有的Two Sum
@@ -18,7 +18,7 @@ toc: true
 - set的使用
 
 ```CPP
-	unordered_set<int> m;
+    unordered_set<int> m;
     bool findTarget(TreeNode* root, int k) {
         if(!root) return false;
         if(m.count(k-root->val)) return true;                      //找到的话
