@@ -3,7 +3,7 @@ layout: post
 title: 16-3Sum_Closest
 date: 2022-10-09
 Author: keen
-tags: [暴力,two_pointers]
+tags: [暴力,two_pointers,medium]
 toc: true
 ---
 # 16-3Sum Closest
@@ -16,7 +16,7 @@ toc: true
 - 所以我们需要把它优化到n^2
 
 ```CPP
-	 int threeSumClosest(vector<int>& nums, int target) {
+	int threeSumClosest(vector<int>& nums, int target) {
         sort(nums.begin(),nums.end());									//先sort使之可以进行比较
         int sum = nums[0] + nums[1] + nums[2];
         int len = nums.size();
