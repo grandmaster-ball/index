@@ -3,14 +3,14 @@ layout: post
 title: Add_Binary 67
 date: 2022-10-07
 Author: keen
-tags: [Easy,二进制，模拟]
+tags: [Easy,二进制,模拟]
 comments: false
 toc: true
 ---
 # 67-Add Binary
 ## 题目：Easy
 - 用string 模拟两个二进制数字相加
-![Add_Binary](https://lh3.googleusercontent.com/u/0/d/1yidUpX1OqUw7f-HTEcWeH9aO1D9_Pf0j
+![Add_Binary](https://lh3.googleusercontent.com/u/0/d/1yidUpX1OqUw7f-HTEcWeH9aO1D9_Pf0j)
 
 - 本来是想写个模拟的加法器，但是实在是有够麻烦
 - 思路1：先两个异或，然后找出C的string，给异或之后的加上去，发现不行
