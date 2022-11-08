@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add_Binary 67
+title: 67-Add_Binary
 date: 2022-11-07
 Author: keen
 tags: [Easy,二进制,模拟]
