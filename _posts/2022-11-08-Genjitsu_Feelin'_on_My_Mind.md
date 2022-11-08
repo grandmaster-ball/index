@@ -1,3 +1,11 @@
+---
+layout: post
+title: 現実 Feelin' on my mind
+date: 2022-11-08
+Author: keen
+tags: [歌词,2级歌词]
+---
+
 # 現実 Feelin' on my mind
 
 デイスプレイの中　　　　
