@@ -1,0 +1,14 @@
+1207. Unique Number of Occurrences
+
+通過一個map 一個 set 可以時間複雜度降低到O(n)
+if(!s.insert(m.second).second) return false;
+
+1704. Determine if String Halves Are Alike
+分成兩半的字符串前後的元音字母是否數目相等：
+```cpp
+  while(i<j){
+    i++;
+    j--;
+  }
+```
+函數少跑一些，會稍微快點
